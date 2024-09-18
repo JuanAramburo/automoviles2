@@ -1,0 +1,96 @@
+/*Selector universal*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Selector de etiquetas*/
+
+body{
+
+    background-color: rgb(243, 240, 242);
+    color: white;
+}
+
+/*Selector de ID*/
+#contenedor{
+    width: 1200px;
+    height: 4%;
+    background-color: rgb(184, 155, 179);
+    margin: 10px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+#encabezado{
+    width: 90%;
+    background-color: rgb(204, 187, 207);
+    margin: 1em;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu{
+    height: 40px;
+    background-color: rgb(224, 222, 230);
+    margin: 1em;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pie{
+    height: 70px;
+    background-color: rgb(167, 143, 170);
+    margin: 1.5em;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#pie h4{
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(247, 246, 246);
+}
+
+/*Selector de etiquetas de menu*/
+
+ul{
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+    padding: 10px 30px;
+    margin: 3em;
+}
+
+li a:hover{
+    color: rgb(56, 42, 45);
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+/*Selector de clase*/
+
+.img{
+    width: 50%;
+    border-radius: 20px;
+    justify-items: center;
+}
+
+.texto{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px 25px;
+    color: rgb(253, 252, 252);
+}
