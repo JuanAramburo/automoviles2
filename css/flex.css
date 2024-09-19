@@ -1,0 +1,26 @@
+/* Selector global*/
+
+*{
+    box-sizing: border-box;
+}
+
+/*Selector de clase*/
+
+.contenedorFlex{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    background-color: rgb(245, 208, 208);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.item{
+    background-color: rgb(208, 208, 208);
+    width: 100px;
+    margin: 10px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 75px;
+    font-size: 75px;
+}
