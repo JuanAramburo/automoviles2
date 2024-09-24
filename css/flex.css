@@ -8,19 +8,119 @@
 
 .contenedorFlex{
     display: flex;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(49, 48, 121);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexwr{
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(9, 151, 33);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexAIC{
+    display: flex;
+    width: 500px;
     height: 400px;
     flex-direction: row;
-    background-color: rgb(245, 208, 208);
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(204, 122, 16);
+}
+
+.contenedorFlexAIE{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    flex-direction: row;
+    align-items: end;
+    background-color: rgb(16, 204, 116);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexAIESTRECH{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: rgb(16, 204, 116);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexCenterJustify{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 17, 17);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexSpaceAround{
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(226, 17, 63);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexSpaceBetween{
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(226, 17, 63);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexColAIE{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgb(212, 226, 17);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.contenedorFlexColRevAIC{
+    display: flex;
+    width: 500px;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: rgb(253, 10, 172);
     padding: 10px;
     border: 2px solid black;
 }
 
 .item{
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(74, 238, 202);
     width: 100px;
     margin: 10px;
     border: 2px solid;
     text-align: center;
-    line-height: 75px;
-    font-size: 75px;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.item:hover{
+    background-color: orangered;
 }
