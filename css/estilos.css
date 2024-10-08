@@ -75,8 +75,13 @@ li{
 li a:hover{
     color: rgb(56, 42, 45);
     text-decoration: none;
+    color: white;
     list-style: none;
     font-size: 20px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*Selector de clase*/
@@ -88,7 +93,7 @@ li a:hover{
 }
 
 .texto{
-    text-align: justify;
+    text-align: centers;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 5px 25px;
