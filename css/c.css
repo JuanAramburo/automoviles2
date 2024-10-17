@@ -93,3 +93,11 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: aqua;
+}
+
+input{
+    text-align: center;
+}
+

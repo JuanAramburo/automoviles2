@@ -43,3 +43,35 @@ parrafo.addEventListener('mouseover',cambiar);
 parrafo.addEventListener('mouseleave', normal);
 btnCalcular.addEventListener('click',calcularIMC);
 btnLimpiar.addEventListener('click',limpiar);
+
+//Operaciones Aritmeticas
+const btnCalcular2 = document.getElementById("btnCalcular2");
+const btnLimpiar2 = document.getElementById("btnLimpiar2");
+
+btnCalcular2.addEventListener('click', function calcular(){
+    const opcion = document.getElementById("idOpcion").value;
+    const idNumero1 = document.getElementById("idNumero1").value;
+    const idNumero2 = document.getElementById("idNumero2").value;
+    const txtres = document.getElementById("idResultado");
+
+    let res=0;
+    let num1 = parseInt(idNumero1);
+    let num2 = parseInt(idNumero2);
+    let opc = parseInt(opcion);
+
+    switch(opc){
+        case 1: res = num1+num2;break;
+        case 2: res = num1-num2;break;
+        case 3: res = num1*num2;break;
+        case 4: res = num1/num2;break;
+    }
+
+    txtres.value = res;
+
+});
+
+btnLimpiar2.addEventListener('click', function limpiar2(){
+    document.getElementById("idNumero1").value = "";
+    document.getElementById("idNumero2").value = "";
+    document.getElementById("idResultado").value = "";
+});
