@@ -54,6 +54,8 @@ a{
 
 a:hover{
     color: rgb(15, 27, 136);
+    text-align: center;
+    font-size: 30px;
 }
 
 footer{
