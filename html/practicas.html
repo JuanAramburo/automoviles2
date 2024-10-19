@@ -47,10 +47,40 @@
         placeholder="Captura Numero 2">
         <br>
         <span>Resultado</span>
-        <input type="number" id="idResultado">
+        <input type="text" id="idResultado" readonly>
         <button id="btnCalcular2">Calcular</button>
         <button id="btnLimpiar2">Limpiar</button>
         <label for="" id="error2">...</label>
+    </section>
+
+    <section class="card">
+        <header>
+            <h2>Cotizacion</h2>
+        </header>
+        <span>Valor del automovil</span>
+        <input type="number" name="idValorAuto" id="idValorAuto" required>
+        <br>
+        <span>Enganche</span>
+        <input type="text" id="idEnganche" readonly>
+        <br>
+        <span>Total a Financiar</span>
+        <input type="text" id="idFinanciar" readonly>
+        <br>
+        <span>Planes a credito</span>
+        <select name="autoOpcion" id="autoOpcion">
+            <option value="1"> 12 meses
+                <option value="2">18 meses</option>
+                <option value="3">24 meses</option>
+                <option value="4">36 meses</option>
+                <option value="5">48 meses</option>
+            </option>
+        </select>
+        <br>
+        <span>Plan Mensual</span>
+        <input type="text" id="idMensual" readonly>
+        <button id="btnCalcular3">Calcular</button>
+        <button id="btnLimpiar3">Limpiar</button>
+        <label for="" id="error3">...</label>
     </section>
 
     <script src="/js/main.js"></script>
