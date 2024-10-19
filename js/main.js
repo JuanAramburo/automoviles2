@@ -107,6 +107,7 @@ function calcular2(){
     else{
         let enganche = val * 0.3;
         document.getElementById("txtEnganche").value = enganche;
+
         let totalen = val - enganche;
         switch(opc2){
             case 1: totalfin = (val * 0.125) + totalen; break;
@@ -123,7 +124,9 @@ function calcular2(){
             case 4: pagomensual = totalfin / 36;break;
             case 5: pagomensual = totalfin / 48;break;
         }
+
         document.getElementById("txtPago").value = pagomensual.toFixed(2);
+
     }
 };
 
@@ -132,7 +135,7 @@ function limpiar3(){
     document.getElementById("txtEnganche").value = "";
     document.getElementById("txtFinanciar").value = "";
     document.getElementById("txtPago").value = "";
-    labelError.textContent="";
+    labelError3.textContent="";
 }
 
 btnCalcular3.addEventListener('click', calcular2);
