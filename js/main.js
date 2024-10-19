@@ -68,7 +68,6 @@ btnCalcular2.addEventListener('click', function calcular(){
     if(!num1 || !num2){
         labelError2.textContent="Falto capturar algun numero";
     }
-
     switch(opc){
         case 1: res = num1+num2;break;
         case 2: res = num1-num2;break;
