@@ -135,7 +135,7 @@ function limpiar3(){
     document.getElementById("txtEnganche").value = "";
     document.getElementById("txtFinanciar").value = "";
     document.getElementById("txtPago").value = "";
-    labelError3.textContent="";
+    labelError3.textContent = "";
 }
 
 btnCalcular3.addEventListener('click', calcular2);
