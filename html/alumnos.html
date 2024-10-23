@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/alumnos.css">
+    <title>Alumnos</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Lista de Alumnos</h1>
+        </header>
+
+        <section class="contenedor">
+            <h6>
+                <br>
+                <label for="">Matricula</label>
+                <input type="text" id="matricula">
+                <br>
+                <label for="">Nombre</label>
+                <input type="text" id="nombre">
+                <br>
+                <label for="">Domicilio</label>
+                <input type="text" id="domicilio">
+                <br>
+                <span>Sexo: </span>
+                <select name="cmbsexo" id="cmbsexo">
+                    <option value="M"> Masculino
+                        <option value="F">Femenino</option>
+                    </option>
+                </select>
+                <br>
+                <label for="">Especialidad</label>
+                <input type="text" id="especialidad">
+                <br>
+                <br>
+                <button id="btnAgregar">Agregar</button>
+            </h6>
+            <br>
+            <div id="lista">
+
+            </div>
+        </section>
+        <button id="btnLimpiar">Limpiar</button>
+    </center>
+</body>
+<script src="/js/alumnos.js"></script>
+</html>
