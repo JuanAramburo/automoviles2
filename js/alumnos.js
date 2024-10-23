@@ -31,10 +31,12 @@ function mostrar(){
     for(let con = 0; con < alumnos.length; ++con){
         lista.innerHTML += 
             alumnos[con].matricula + " : " + 
-            alumnos[con].nombre + ", " + 
-            alumnos[con].domicilio + ", " + 
-            alumnos[con].sexo + ", " + 
+            alumnos[con].nombre + " | " + 
+            alumnos[con].domicilio + " | " + 
+            alumnos[con].sexo + " | " + 
             alumnos[con].especialidad + "<br>";
+
+
     }
 }
 
@@ -58,6 +60,10 @@ function agregar(){
 function limpiar(){
     const lista = document.getElementById("lista");
     lista.innerHTML = "";
+    document.getElementById("matricula").value = "";
+    document.getElementById("nombre").value = "";
+    document.getElementById("domicilio").value = "";
+    document.getElementById("especialidad").value = "";
 }
 
 btnAgregar.addEventListener('click', agregar);
