@@ -2,8 +2,7 @@
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.877);
-    font-family: "Edu AU VIC WA NT Dots", cursive;
-    font-optical-sizing: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-style: normal;
     overflow: hidden;
@@ -11,10 +10,30 @@
     margin-left: auto;
     margin-right: auto;
     border: 2px solid;
-    border-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
-    background-color: yellow;
+    border-radius: 8px;
+    width: 1200px;
+    background-color: rgb(184, 155, 179);
+    margin: 10px;
+    padding: 20px;
+}
+
+.marca-container {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.titulo-marca {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .cardCotizacion{
@@ -99,14 +118,14 @@
 }
 
 button:hover{
-    color: yellow;
+    color: rgb(184, 155, 179);
     background-color: white;
 }
 
 .seccion{
     height: 50%;
     width: 98%;
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(184, 155, 179);
     color: black;
     border: 1px solid;
 }
@@ -118,7 +137,7 @@ button:hover{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(184, 155, 179);
     gap: 10px;
     margin: 0 auto;
 }
@@ -139,7 +158,12 @@ html{
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(204, 187, 207);
+}
+
+h2{
+    font-size: 40px;
+    padding: 20px;
 }
 
 input{
