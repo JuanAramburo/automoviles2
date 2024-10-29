@@ -1,0 +1,21 @@
+[
+        {
+            "marca":"Toyota",
+            "modelo":"Yaris 2024",
+            "imagen":"/img/toyota1.jpg",
+            "descripcion":"4 puerta automatico 240,000",
+            "mas":"Mas informacion"
+        },{
+            "marca":"Toyota",
+            "modelo":"Corolla 2024",
+            "imagen":"/img/toyota2.jpg",
+            "descripcion":"4 puerta automatico 300,000",
+            "mas":"Mas informacion"
+        },{
+            "marca":"Toyota",
+            "modelo":"Tacoma",
+            "imagen":"/img/toyota3.jpg",
+            "descripcion":"Camioneta 4x4 automatica 780,000",
+            "mas":"Mas informacion"
+        }
+]
