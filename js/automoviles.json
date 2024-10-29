@@ -1,0 +1,123 @@
+[
+    {
+        "marca":"TOYOTA",
+        "modelo":"Hilux 2024",
+        "imagen":"/img/toyota1.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"TOYOTA",
+        "modelo":"SW Diamond 2024",
+        "imagen":"/img/toyota2.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Credito 20% Pago Inicial Hasta 60 Meses",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"TOYOTA",
+        "modelo":"Hilux GR Sport 2024",
+        "imagen":"/img/toyota3.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo, Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"TOYOTA",
+        "modelo":"Camry 2024",
+        "imagen":"/img/toyota4.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"NISSAN",
+        "modelo":"GT-R Nismo 2024",
+        "imagen":"/img/nissan1.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"NISSAN",
+        "modelo":"Safari 2024",
+        "imagen":"/img/nissan2.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"NISSAN",
+        "modelo":"Micra 2024",
+        "imagen":"/img/nissan3.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Estandar, Basico para empezar. Credito 20% Pago Inicial Hasta 60 Meses",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"NISSAN",
+        "modelo":"Safari 2024",
+        "imagen":"/img/nissan4.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, rines de lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"FORD",
+        "modelo":"Fiesta 2024",
+        "imagen":"/img/ford1.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Credito 20% Pago Inicial Hasta 60 Meses de Plazo sin intereses",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"FORD",
+        "modelo":"Focus 2024",
+        "imagen":"/img/ford2.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"FORD",
+        "modelo":"Explorer 2024",
+        "imagen":"/img/ford3.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo ",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"FORD",
+        "modelo":"Mustang 2024",
+        "imagen":"/img/ford4.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"HONDA",
+        "modelo":"Civic TyperR 2024",
+        "imagen":"/img/honda1.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles" 
+    },{
+        "marca":"HONDA",
+        "modelo":"Vezel 2024",
+        "imagen":"/img/honda2.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"HONDA",
+        "modelo":"e 2024",
+        "imagen":"/img/honda3.jpg",
+        "descripcion":"Carro Electrico, Energetico, Silencioso, Rines de Lujo y rapido a Credito 20% Pago Incial Hasta 60 Meses de plazo sin intereses",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"HONDA",
+        "modelo":"S2000",
+        "imagen":"/img/honda4.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo ",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"CHEVROLET",
+        "modelo":"Aveo 2024",
+        "imagen":"/img/chevrolet1.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo sin intereses",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"CHEVROLET",
+        "modelo":"D-Max Hi-Ride 2024",
+        "imagen":"/img/chevrolet2.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo ",
+        "mas":"Mas Detalles" 
+    },{
+        "marca":"CHEVROLET",
+        "modelo":"Silverado 2024",
+        "imagen":"/img/chevrolet3.jpg",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    },{
+        "marca":"CHEVROLET",
+        "modelo":"Joy 2024",
+        "imagen":"/img/chevrolet4.png",
+        "descripcion":"Aire Acondicionado, Transmision Automatica, Rines de Lujo. Credito 20% Pago Inicial Hasta 60 Meses de Plazo",
+        "mas":"Mas Detalles"
+    }
+]
