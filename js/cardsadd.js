@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", async (event) => {
 
 async function crearCards() {
     try{
-        const response = await fetch("/js/automoviles.json");
+        const response = await fetch("/js/cardsADD.json");
         const data = await response.json();
         const section = document.createElement("section");
         section.className = "contenedorflexAIC";
@@ -19,17 +19,17 @@ async function crearCards() {
         });
 
         for (const marca in marcas) {
-            const marcaContainer = document.createElement("div");
-            marcaContainer.className = "marca-container";
-            marcaContainer.id = marca.toLowerCase();
+            const marcaContenedor = document.createElement("div");
+            marcaContenedor.className = "marca-contenedor";
+            marcaContenedor.id = marca.toLowerCase();
 
             const tituloMarca = document.createElement("h2");
             tituloMarca.className = `titulo-${marca.toLowerCase()}`;
             tituloMarca.textContent = marca;
-            marcaContainer.appendChild(tituloMarca);
+            marcaContenedor.appendChild(tituloMarca);
 
-            const cardsContainer = document.createElement("div");
-            cardsContainer.className = "cards-container";
+            const cardsContenedor = document.createElement("div");
+            cardsContenedor.className = "cards-contenedor";
 
             marcas[marca].forEach(car => {
                 const item = document.createElement("div");
@@ -54,11 +54,11 @@ async function crearCards() {
                 cardBtn.textContent = car.mas;
                 item.appendChild(cardBtn);
 
-                cardsContainer.appendChild(item);
+                cardsContenedor.appendChild(item);
             });
 
-            marcaContainer.appendChild(cardsContainer);
-            section.appendChild(marcaContainer);
+            marcaContenedor.appendChild(cardsContenedor);
+            section.appendChild(marcaContenedor);
         }
 
         document.body.appendChild(section);
